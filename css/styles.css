@@ -1,7 +1,7 @@
 body {
   margin: 0;
   display: flex;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
 }
 
 #map {
@@ -10,25 +10,15 @@ body {
 }
 
 #sidebar {
-  width: 280px;
-  background: #ffffff;
-  padding: 15px;
+  width: 300px;
+  background: #f4f4f4;
+  padding: 10px;
+  overflow-y: auto;
   border-right: 1px solid #ccc;
-}
-
-h2 {
-  margin-top: 0;
 }
 
 input {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  #sidebar {
-    display: none;
-  }
 }
